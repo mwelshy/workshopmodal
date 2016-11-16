@@ -1,6 +1,7 @@
 body {
 	background-color: gray;
 	margin: 0;
+	position: relative;
 }
 
 #container {
@@ -39,9 +40,12 @@ body {
 
 
 .modal {
+	z-index: 1;
 	display: none;
-	position: fixed;
-	width: 400px;
+	position: absolute;
+	right: 31%;
+	top: 165px;
+	width: 38%;
 	height: 200px;
 	background-color: white;
 	border: 1px solid black;
@@ -49,8 +53,9 @@ body {
 }
 
 .modal-content {
-	margin: 0 auto;
 	background-color: white;
+
+
 }
 
 .modal-content p {
