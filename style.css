@@ -40,15 +40,21 @@ body {
 
 .modal {
 	display: none;
-	width: 200px;
+	position: fixed;
+	width: 400px;
 	height: 200px;
-	background-color: yellow;
+	background-color: white;
+	border: 1px solid black;
 
 }
 
 .modal-content {
-	margin: 15% auto;
-	background-color: yellow;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.modal-content p {
+	text-align:center;
 }
 
 
