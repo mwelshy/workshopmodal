@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: white;
 	margin: 0;
 	position: relative;
 }
@@ -12,11 +12,13 @@ body {
 
 .header-bar {
 	background-color: beige;
+	border-bottom: 3px solid black;
 
 }
 
 .header-bar h1 {
 	display:inline;
+	font-size: 21px;
 }
 
 
@@ -31,12 +33,29 @@ body {
 
 .content {
 	width: 100%;
-	background-color: white;
+	height: 400px;
+	background-color: purple;
+
+
 }
 
 .content p {
 	margin: 0;
+	float:left;
+	width: 100%;
+
 }
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	clear:both;
+	background-color: white;
+}
+
+
 
 
 .modal {
