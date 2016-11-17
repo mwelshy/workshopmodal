@@ -1,17 +1,22 @@
 body {
-	background-color: #adb7bd;
 	margin: 0;
 	position: relative;
+
 }
 
 #container {
 	width: 100%;
+	position: relative;
 }
 
 
 
 .header-bar {
 	border-bottom: 2px solid black;
+	position: fixed;
+	width: 100%;
+	background-color:black;
+
 
 }
 
@@ -21,7 +26,25 @@ body {
 	color: white;
 	margin-left: 15px;
 	font-family: helvetica;
+	float:left;
 
+}
+
+.header-bar ul {
+	display: inline-block;
+	float:right;
+}
+
+.header-bar li {
+	display: inline;
+	color:white;
+	padding: 15px;
+	font-family: Georgia;
+}
+
+.header-title {
+	position: relative;
+	top: 25%;
 }
 
 
@@ -33,7 +56,7 @@ body {
 	width: 100%;
 	height: 300px;
 	border-bottom: 1px solid black;
-	position: relative;
+
 
 
 }
@@ -42,7 +65,7 @@ body {
 	display: inline;
 	position: absolute;
 	top: 29%;
-	left: 41%;
+	left: 42%;
 	font-size: 48px;
 	color:white;
 }
