@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: #adb7bd;
 	margin: 0;
 	position: relative;
 }
@@ -11,30 +11,47 @@ body {
 
 
 .header-bar {
-	background-color: beige;
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 
 }
 
 .header-bar h1 {
 	display:inline;
 	font-size: 21px;
+	color: white;
+	margin-left: 15px;
+	font-family: helvetica;
+
 }
 
 
 
 .header-img {
-	background-color: green;
+	background-image: url("bgpattern.jpg");
+	background-repeat: none;
+	background-size: cover;
 	width: 100%;
 	height: 300px;
+	border-bottom: 1px solid black;
+	position: relative;
 
 
+}
+
+.header-img h2 {
+	display: inline;
+	position: absolute;
+	top: 29%;
+	left: 41%;
+	font-size: 48px;
+	color:white;
 }
 
 .content {
 	width: 100%;
 	height: 400px;
-	background-color: purple;
+	background-color: beige;
+	border-bottom: 2px solid black;
 
 
 }
@@ -53,6 +70,10 @@ body {
 .footer {
 	clear:both;
 	background-color: white;
+}
+
+span {
+	color: darkblue;
 }
 
 

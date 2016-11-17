@@ -1,6 +1,6 @@
 
 var modal = document.getElementById("myModal");
-var span = document.getElementsByTagName("span")[0].addEventListener("click", closeit);
+var span = document.getElementsByTagName("span")[1].addEventListener("click", closeit);
 
 function displayit(){
 	modal.style.display = "block";
